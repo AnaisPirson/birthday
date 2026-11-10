@@ -208,6 +208,7 @@
   
   body {
     background-image: url("img/5438849.jpg");
+    background-size: auto;
 
     /* background-size: cover; */
   }
