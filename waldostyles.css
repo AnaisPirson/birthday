@@ -208,8 +208,23 @@
   
   body {
     background-image: url("img/5438849.jpg");
-    /* background-size: cover; */
-    background-size: auto;
 
+    /* background-size: cover; */
+  }
+  
+
+  @media (max-width: 700px) {
+    #btnBox {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: min(400px, calc(100vw - 32px));
+      height: auto;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-sizing: border-box;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+    }
   }
   
