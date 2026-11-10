@@ -28,12 +28,6 @@
     background-color: #bc80ea;
   }
   
-  .container #restart {
-    position: absolute;
-    top: 95%;
-    left: 52px;
-  }
-  
   .container #startbtn:hover {
     background-color: purple;
   }
@@ -82,7 +76,8 @@
   
   #restart {
     position: absolute;
-    top: 114%;
+    bottom: 2%;
+    left: 52px;
     font-size: 10px;
   }
   #closeBtn {
